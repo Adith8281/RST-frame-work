@@ -3,12 +3,12 @@ from django.http import JsonResponse,HttpResponse
 from .models import *
 from .serializers import *
 from django.views.decorators.csrf import csrf_exempt
-from rest_framework.parsers import JSONParser
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
-from rest_framework import status
-from rest_framework.views import APIView
-from rest_framework import generics,mixins
+from rest_framework.parsers import JSONParser # type: ignore
+from rest_framework.decorators import api_view # type: ignore
+from rest_framework.response import Response # type: ignore
+from rest_framework import status # type: ignore
+from rest_framework.views import APIView # type: ignore
+from rest_framework import generics,mixins # type: ignore
 
 
 # Create your views here.
